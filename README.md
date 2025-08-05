@@ -31,6 +31,7 @@ results_upload/
 │   ├── rag_maintenance.txt        # RAG responses using processed documents (iS3 Tunnel)
 │   └── answers_maintenancei.txt   # Human expert reference answers
 ├── results.png                     # Accuracy comparison chart across categories
+├── 案例智能体评估记录.xls          # Intelligent agent evaluation records spreadsheet
 └── README.md                       # This file
 ```
 
@@ -86,6 +87,32 @@ The `results.png` file provides a visual comparison of accuracy rates across dif
 ![Performance Results](results.png)
 
 *Figure: Accuracy comparison across different AI systems and tunnel construction categories*
+
+## Intelligent Agent Evaluation Records
+
+The `案例智能体评估记录.xls` file contains detailed evaluation records for intelligent agents across different tunnel construction scenarios. This spreadsheet provides:
+
+### Evaluation Metrics
+- **Accuracy Assessment**: Detailed scoring of AI responses against expert reference answers
+- **Response Quality**: Evaluation of answer completeness, relevance, and technical accuracy
+- **Domain Expertise**: Assessment of AI systems' understanding of construction standards and regulations
+- **Performance Tracking**: Historical performance data across different evaluation sessions
+
+### Evaluation Categories
+- **Survey Phase**: Geological investigation and site assessment capabilities
+- **Design Phase**: Understanding of design standards and structural requirements
+- **Construction Phase**: Knowledge of construction methods and safety protocols
+- **Maintenance Phase**: Expertise in operation and maintenance procedures
+
+### Data Structure
+The spreadsheet includes:
+- Question-answer pairs with expert evaluations
+- Confidence scores and reliability metrics
+- Comparative analysis between different AI approaches (GPT-4o, RAG, iS3 Tunnel)
+- Performance trends and improvement tracking
+- Detailed feedback for system optimization
+
+This evaluation record serves as a comprehensive benchmark for assessing AI system performance in tunnel construction domain expertise and provides valuable insights for system improvement and research development.
 
 ## Citation
 
